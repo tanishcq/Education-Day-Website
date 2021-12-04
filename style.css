@@ -1,0 +1,89 @@
+/* html{
+    max-width: 100%;
+    overflow-x: hidden;
+} */
+
+body {
+    overflow: auto;
+    overflow-x: hidden;
+    background: rgb(255,255,255);   
+    background: linear-gradient(270deg, rgb(0, 0, 0) 0%, rgb(88, 88, 88) 100%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+#mainNavbar .navbar-brand {
+    color: #a06dff;
+    /* text-shadow: 1px 2px #ba95ff; */
+}
+
+#candy {
+    font-size: larger;
+}
+
+.img-resize{
+    width: 913px;
+    height: 913px;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #a06dff;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#headingGroup span {
+    color: #a06dff;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.blurb h2 {
+    color: #a06dff;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 1.125rem;
+}
+
+.navbar.scrolled{
+    background: rgb(222, 192, 222);
+}
+
+.content{
+    margin-top: 40px;
+}
+
+@media (max-width: 1392px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1100px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 1.5rem;
+    }
+}
